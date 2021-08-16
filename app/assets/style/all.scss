@@ -1,2 +1,9 @@
-@import './helpers/bootstrap.scss';
-@import './layout/_index.scss';
+@import './helpers/bootstrap';
+
+@import './utilities/font';
+
+@import './config/base';
+
+@import './layout/header';
+
+@import './page/index';
