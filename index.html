@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首頁</title>
+    <!-- icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <header class="header border border-dark">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
+        <div class="container header__main position-relative">
+          <a href="./index.html">
+            <h2 class="text-secondary position-absolute top-50 start-50 translate-middle h4 m-0">EXHIBINECTION</h2>
+          </a>
+          <button class="navbar-toggler border-0" type="button">
+            <span class="material-icons text-black">confirmation_number</span>
+          </button>
+          <div class="collapse navbar-collapse position-absolute top-50 end-0 translate-middle-y" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-dark px-0 me-6" href="javascript:;">Sign in</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark px-0 me-6" href="javascript:;">Sign up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black px-0" href="javascript:;">
+                  <span class="material-icons">confirmation_number</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      
+<div class="index">
+  <section class="banner bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="banner__main col offset-md-1">
+          <h1 class="h2 text-white fw-bold">台北當代藝術展</h1>
+          <h2 class="h5 text-white fw-bold mb-4">01 JUN - 31 OCT</h2>
+          <div class="d-flex justify-content-between d-md-block">
+            <div class="btn btn-primary w-48 w-md-auto me-0 me-md-2">
+              購買票券
+            </div>
+            <div class="btn btn-outline-white w-48 w-md-auto">
+              詳細資訊
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="nav-scroller">
+    <nav class="container nav justify-content-md-center" aria-label="Secondary navigation">
+      <a class="nav-link active text-dark hover-dark" aria-current="page" href="javascript:;">音樂</a>
+      <a class="nav-link text-dark hover-dark" href="javascript:;">戲劇</a>
+      <a class="nav-link text-dark hover-dark" href="javascript:;">設計</a>
+      <a class="nav-link text-dark hover-dark" href="javascript:;">藝術</a>
+      <a class="nav-link text-dark hover-dark" href="javascript:;">美食</a>
+      <a class="nav-link text-dark hover-dark" href="javascript:;">旅遊</a>
+      <a class="nav-link text-dark hover-dark" href="javascript:;">電影</a>
+      <a class="nav-link text-dark hover-dark" href="javascript:;">親子</a>
+      <a class="nav-link text-dark hover-dark" href="javascript:;">期間限定</a>
+    </nav>
+  </div>
+  <section class="popular-exhibition container">
+    <h2 class="h2">熱門特展</h2>
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img src="./assets/images/exhibition-1.jpg" class="card-img-top" alt="展場照">
+          <div class="card-body bg-light">
+            <h3 class="card-title h5">2020 台味設計展</h3>
+            <h4>$350</h4>
+            <p class="card-text">
+              一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。
+            </p>
+            <button type="button" class="btn btn-secondary me-2">購買票券</button>
+            <button type="button" class="btn btn-outline-secondary me-2">收藏展覽</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="review container">
+    <h2 class="h2 fw-bold mb-2 mb-md-5">直播回顧</h2>
+  </section>
+  <section class="others container">
+    <h2 class="h2 fw-bold mb-2 mb-md-5">猜你也喜歡...</h2>
+    <div class="row">
+      <div class="col-md-11 offset-md-1">
+        <!-- Swiper -->
+        <div class="d-block d-md-none swiper-container mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="./assets/images/other-1.jpg" class="card-img-top" alt="展覽照">
+                <div class="card-body pt-2 pb-0 mb-5 mb-md-8">
+                  <h5 class="card-title h5 mb-1 fw-bold">No.22 線上設計展</h5>
+                  <p class="card-text h5 fw-normal">$350</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="./assets/images/other-2.jpg" class="card-img-top" alt="展覽照">
+                <div class="card-body pt-2 pb-0 mb-5 mb-md-8">
+                  <h5 class="card-title h5 mb-1 fw-bold">No.22 線上設計展</h5>
+                  <p class="card-text h5 fw-normal">$350</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="./assets/images/other-3.jpg" class="card-img-top" alt="展覽照">
+                <div class="card-body pt-2 pb-0 mb-5 mb-md-8">
+                  <h5 class="card-title h5 mb-1 fw-bold">No.22 線上設計展</h5>
+                  <p class="card-text h5 fw-normal">$350</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://fakeimg.pl/250x200/" class="card-img-top" alt="...">
+                <div class="card-body pt-2 pb-0 mb-5 mb-md-8">
+                  <h5 class="card-title h5 mb-1 fw-bold">No.22 線上設計展</h5>
+                  <p class="card-text h5 fw-normal">$350</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://fakeimg.pl/250x200/" class="card-img-top" alt="...">
+                <div class="card-body pt-2 pb-0 mb-5 mb-md-8">
+                  <h5 class="card-title h5 mb-1 fw-bold">No.22 線上設計展</h5>
+                  <p class="card-text h5 fw-normal">$350</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://fakeimg.pl/250x200/" class="card-img-top" alt="...">
+                <div class="card-body pt-2 pb-0 mb-5 mb-md-8">
+                  <h5 class="card-title h5 mb-1 fw-bold">No.22 線上設計展</h5>
+                  <p class="card-text h5 fw-normal">$350</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- Swiper - md -->
+        <div class="d-none d-md-block swiper-container mySwiper-md">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="./assets/images/other-1.jpg" class="card-img-top" alt="展覽照">
+                <div class="card-body pt-2 pb-0 mb-5 mb-md-8">
+                  <h5 class="card-title h5 mb-1 fw-bold">No.22 線上設計展</h5>
+                  <p class="card-text h5 fw-normal">$350</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="./assets/images/other-2.jpg" class="card-img-top" alt="展覽照">
+                <div class="card-body pt-2 pb-0 mb-5 mb-md-8">
+                  <h5 class="card-title h5 mb-1 fw-bold">No.22 線上設計展</h5>
+                  <p class="card-text h5 fw-normal">$350</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="./assets/images/other-3.jpg" class="card-img-top" alt="展覽照">
+                <div class="card-body pt-2 pb-0 mb-5 mb-md-8">
+                  <h5 class="card-title h5 mb-1 fw-bold">No.22 線上設計展</h5>
+                  <p class="card-text h5 fw-normal">$350</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://fakeimg.pl/250x200/" class="card-img-top" alt="...">
+                <div class="card-body pt-2 pb-0 mb-5 mb-md-8">
+                  <h5 class="card-title h5 mb-1 fw-bold">No.22 線上設計展</h5>
+                  <p class="card-text h5 fw-normal">$350</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://fakeimg.pl/250x200/" class="card-img-top" alt="...">
+                <div class="card-body pt-2 pb-0 mb-5 mb-md-8">
+                  <h5 class="card-title h5 mb-1 fw-bold">No.22 線上設計展</h5>
+                  <p class="card-text h5 fw-normal">$350</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="https://fakeimg.pl/250x200/" class="card-img-top" alt="...">
+                <div class="card-body pt-2 pb-0 mb-5 mb-md-8">
+                  <h5 class="card-title h5 mb-1 fw-bold">No.22 線上設計展</h5>
+                  <p class="card-text h5 fw-normal">$350</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__banner">
+        <div class="container">
+          <h2 class="h4 h2-md text-white mb-5 mb-md-3">想收到最新消息嗎？<br>快訂閱我們！</h2>
+          <div class="row">
+            <div class="col-sm-8 col-md-4">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control py-3" placeholder="輸入您的電子信箱">
+                <button class="btn btn-primary" type="button">訂閱</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright d-block d-md-flex justify-content-between align-items-center py-4 py-md-5">
+          <div class="d-block d-md-flex align-items-center">
+            <h2 class="h4 fw-normal mb-0 me-4">EXHIBINECTION</h2>
+            <h3 class="h6 m-0">© 2020. All Rights Reserved.</h3>
+          </div>
+          <div class="d-none d-md-block">
+            <a class="text-dark hover-dark me-5" href="javascript:;">Sign in</a>
+            <a class="text-dark hover-dark" href="javascript:;">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>
