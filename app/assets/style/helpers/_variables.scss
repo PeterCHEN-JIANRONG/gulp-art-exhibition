@@ -81,7 +81,10 @@ $theme-colors: ("primary": $primary,
   "warning": $warning,
   "danger": $danger,
   "light": $light,
-  "dark": $dark) !default;
+  "dark": $dark,
+  "white": $white,
+  "black": $black,
+) !default;
 // scss-docs-end theme-colors-map
 
 // The contrast ratio to reach against white, to determine if color changes from "light" to "dark". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.
@@ -340,7 +343,7 @@ $container-max-widths: (sm: 540px,
 // Set the number of columns and specify the width of the gutters.
 
 $grid-columns: 12 !default;
-$grid-gutter-width: 1.5rem !default;
+$grid-gutter-width: 1.875rem; //1.5rem !default; //BS5 gutter改為24px, 設計稿為30px
 $grid-row-columns: 6 !default;
 
 $gutters: $spacers !default;
