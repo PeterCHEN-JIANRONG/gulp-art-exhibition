@@ -2,9 +2,12 @@
 
 @import './utilities/font';
 @import './utilities/sizing';
+@import './utilities/hover';
 
 @import './config/base';
 
+
+@import './component/nav';
 @import './layout/header';
 
 @import './page/index';
