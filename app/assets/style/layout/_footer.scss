@@ -1,0 +1,17 @@
+.footer {
+  &__banner {
+    padding-top: 222px;
+    min-height: 400px;
+    background: url(../images/footer.jpg);
+    background-size: cover;
+    background-position: center;
+
+    @include media-breakpoint-up(md) {
+      padding-top: 208px;
+    }
+
+    .btn {
+      padding: 12px 52px;
+    }
+  }
+}

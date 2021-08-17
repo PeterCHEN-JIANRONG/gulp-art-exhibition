@@ -1,6 +1,7 @@
 @import './helpers/bootstrap';
 
 @import './utilities/font';
+@import './utilities/text';
 @import './utilities/sizing';
 @import './utilities/hover';
 
@@ -9,5 +10,6 @@
 
 @import './component/nav';
 @import './layout/header';
+@import './layout/footer';
 
 @import './page/index';
