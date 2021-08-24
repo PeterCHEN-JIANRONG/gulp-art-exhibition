@@ -3,6 +3,11 @@
   /* 隱藏下方捲軸 */
   overflow-y: hidden;
   border-bottom: 1px solid #707070;
+
+  .active,
+  .nav-link:hover {
+    border-bottom: 1px solid $primary;
+  }
 }
 
 .nav-scroller .nav {

@@ -1,0 +1,22 @@
+.banner {
+  background: url(../images/banner-1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 480px;
+
+  &__main {
+    margin-top: 254px;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 167px;
+    }
+  }
+
+  .btn {
+    padding: 10px 0;
+
+    @include media-breakpoint-up(md) {
+      padding: 10px 48px;
+    }
+  }
+}

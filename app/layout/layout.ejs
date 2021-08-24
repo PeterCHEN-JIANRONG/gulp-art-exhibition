@@ -51,6 +51,14 @@
         </div>
       </nav>
     </header>
+    <!-- banner -->
+    <div <% if(current !== 'index') { %> hidden <% } %> >
+      <%- include('./components/banner.ejs') %>
+    </div>
+    <!-- nav選單 -->
+    <div <% if(current !== 'index' && current !== 'design') { %> hidden <% } %> >
+      <%- include('./components/nav-scroller.ejs') %>
+    </div>
 
     <main class="main">
       <%- contents %>
