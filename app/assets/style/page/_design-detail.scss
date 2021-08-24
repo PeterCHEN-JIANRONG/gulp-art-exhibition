@@ -1,0 +1,55 @@
+.design-detail {
+  padding-top: 44px;
+  padding-bottom: 24px;
+
+  @include media-breakpoint-up(md) {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+
+  .exhibition-img {
+    width: 100%;
+    height: 256px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .exhibition-ticket,
+  .exhibition-price {
+    height: auto;
+
+    @include media-breakpoint-up(md) {
+      height: 256px;
+    }
+  }
+
+  .exhibition-ticket,
+  .exhibition-price {
+    @include media-breakpoint-up(md) {
+      padding-top: 100px;
+    }
+  }
+
+  .ticket-list {
+    .ticket-item {
+      min-width: 65px;
+    }
+
+    .active {
+      border-bottom: 1px solid $primary;
+    }
+  }
+
+  .banner {
+    min-height: 400px;
+    background: url(../images/banner-2.jpg);
+    background-size: cover;
+    background-position: 0 50%;
+  }
+
+  .product-img {
+    min-height: 559px;
+    object-fit: cover;
+    object-position: center;
+  }
+}

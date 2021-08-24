@@ -56,7 +56,9 @@
       <%- include('./components/banner.ejs') %>
     </div>
     <!-- nav選單 -->
-    <div <% if(current !== 'index' && current !== 'design') { %> hidden <% } %> >
+    <div <% if(current !== 'index' 
+            && current !== 'design'
+            && current !== 'design-detail') { %> hidden <% } %> >
       <%- include('./components/nav-scroller.ejs') %>
     </div>
 
