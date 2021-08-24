@@ -21,4 +21,18 @@
       }
     }
   }
+
+  .review {
+    &__main {
+      background: url(../images/people2.png);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .btn {
+      padding: 10px 38px;
+    }
+  }
+
+
 }

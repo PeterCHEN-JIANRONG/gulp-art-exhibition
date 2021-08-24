@@ -4,4 +4,9 @@
   @include media-breakpoint-up(md) {
     min-height: 80px;
   }
+
+  .cart__number {
+    top: -12px;
+    right: -15px;
+  }
 }
