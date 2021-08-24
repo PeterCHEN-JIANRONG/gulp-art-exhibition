@@ -53,13 +53,13 @@
     </header>
     <!-- banner -->
     <div <% if(current !== 'index') { %> hidden <% } %> >
-      <%- include('./components/banner.ejs') %>
+      <%- include('./banner.ejs') %>
     </div>
     <!-- nav選單 -->
     <div <% if(current !== 'index' 
             && current !== 'design'
             && current !== 'design-detail') { %> hidden <% } %> >
-      <%- include('./components/nav-scroller.ejs') %>
+      <%- include('./nav-scroller.ejs') %>
     </div>
 
     <main class="main">
