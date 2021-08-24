@@ -1,30 +1,35 @@
 // Noto Sans CJK TC
-@font-face {
-  font-family: NotoSansCJKtc;
-  font-weight: 300;
-  src: url("../fonts/NotoSansCJKtc-hinted/NotoSansCJKtc-Light.otf") format("opentype");
-}
+// @font-face {
+//   font-family: NotoSansCJKtc;
+//   font-weight: 300;
+//   src: url("../fonts/NotoSansCJKtc-hinted/NotoSansCJKtc-Light.otf") format("opentype");
+// }
 
-@font-face {
-  font-family: NotoSansCJKtc;
-  font-weight: 400;
-  src: url("../fonts/NotoSansCJKtc-hinted/NotoSansCJKtc-Regular.otf") format("opentype");
-}
+// @font-face {
+//   font-family: NotoSansCJKtc;
+//   font-weight: 400;
+//   src: url("../fonts/NotoSansCJKtc-hinted/NotoSansCJKtc-Regular.otf") format("opentype");
+// }
 
-@font-face {
-  font-family: NotoSansCJKtc;
-  font-weight: 500;
-  src: url("../fonts/NotoSansCJKtc-hinted/NotoSansCJKtc-Medium.otf") format("opentype");
-}
+// @font-face {
+//   font-family: NotoSansCJKtc;
+//   font-weight: 500;
+//   src: url("../fonts/NotoSansCJKtc-hinted/NotoSansCJKtc-Medium.otf") format("opentype");
+// }
 
-@font-face {
-  font-family: NotoSansCJKtc;
-  font-weight: 700;
-  src: url("../fonts/NotoSansCJKtc-hinted/NotoSansCJKtc-Bold.otf") format("opentype");
-}
+// @font-face {
+//   font-family: NotoSansCJKtc;
+//   font-weight: 700;
+//   src: url("../fonts/NotoSansCJKtc-hinted/NotoSansCJKtc-Bold.otf") format("opentype");
+// }
 
-@font-face {
-  font-family: NotoSansCJKtc;
-  font-weight: 900;
-  src: url("../fonts/NotoSansCJKtc-hinted/NotoSansCJKtc-Black.otf") format("opentype");
+// @font-face {
+//   font-family: NotoSansCJKtc;
+//   font-weight: 900;
+//   src: url("../fonts/NotoSansCJKtc-hinted/NotoSansCJKtc-Black.otf") format("opentype");
+// }
+
+// Roboto
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
 }
