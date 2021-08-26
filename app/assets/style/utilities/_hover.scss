@@ -5,3 +5,13 @@
 .hover-light:hover {
   color: lighten($dark, 10%) !important;
 }
+
+// img extend
+.hover-img-extend-1 {
+  transform: scale(1, 1);
+  transition: all 0.8s ease-out;
+
+  &:hover {
+    transform: scale(1.2, 1.2);
+  }
+}
