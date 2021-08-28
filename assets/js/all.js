@@ -13,7 +13,7 @@ var swiper = new Swiper(".mySwiper", {
   },
   breakpoints: {
     767: {
-      slidesPerView: 1.7
+      slidesPerView: 2
     },
     992: {
       slidesPerView: 2.7,
@@ -21,7 +21,7 @@ var swiper = new Swiper(".mySwiper", {
     }
   } // pagination: {
   //   el: ".swiper-pagination",
-  //   clickable: true
+  //   clickable: true,
   // }
 
 });

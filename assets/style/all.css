@@ -13776,6 +13776,21 @@ fieldset:disabled .btn {
   color: #8a8a8a !important;
 }
 
+.hover-img-extend-1 {
+  -webkit-transform: scale(1, 1);
+      -ms-transform: scale(1, 1);
+          transform: scale(1, 1);
+  -webkit-transition: all 0.8s ease-out;
+  -o-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+}
+
+.hover-img-extend-1:hover {
+  -webkit-transform: scale(1.2, 1.2);
+      -ms-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
 .bg-secondary-dark {
   background-color: #190014CC;
 }
