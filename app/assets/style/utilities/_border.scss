@@ -1,0 +1,5 @@
+.border-md-end {
+  @include media-breakpoint-up(md) {
+    border-right: 1px solid black;
+  }
+}
