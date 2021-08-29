@@ -26,7 +26,7 @@
           </a>
           <button class="navbar-toggler border-0" type="button">
             <div class="position-relative">
-              <span class="material-icons text-black">confirmation_number</span>
+              <span class="material-icons text-black" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">confirmation_number</span>
               <span class="cart__number position-absolute text-white bg-primary rounded-circle px-2">3</span>
             </div>
           </button>
@@ -41,7 +41,7 @@
               <li class="nav-item">
                 <a class="nav-link text-black px-0" href="javascript:;">
                   <div class="position-relative">
-                    <span class="material-icons">confirmation_number</span>
+                    <span class="material-icons" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">confirmation_number</span>
                     <span class="cart__number position-absolute text-white bg-primary rounded-circle px-2">3</span>
                   </div>
                 </a>
@@ -161,6 +161,160 @@
         </div>
       </div>
     </footer>
+
+    <!-- Offcanvas畫布 - Cart List  -->
+    <div class="offcanvas offcanvas-end ps-4 ps-md-6 pe-2 pe-md-4" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header pt-5 pt-md-6 mb-3">
+        <h5 id="offcanvasRightLabel" class="h2 fw-bold">Cart List</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body mb-5 pe-2 pe-md-4 scrollbar">
+        <ul class="cart__list">
+          <li class="cart__item">
+            <div class="card mb-3">
+              <button type="button" class="btn-close d-block mt-1 ms-1"></button>
+              <div class="d-flex align-items-center mx-4 mx-md-6 mb-4 mb-md-5">
+                <div class="flex-shrink-0">
+                    <img src="./assets/images/exhibition-1.jpg" class="cart__img" alt="展覽照">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <div class="card-body py-0 d-flex flex-column justify-content-between">
+                    <div>
+                      <h3 class="card-title h6 fw-bold text-black mb-2">2020 台味設計展</h3>
+                      <h4 class="card-title h6 text-black mb-2">01 JUN — 31 OCT</h4>
+                      <h5 class="h6 text-dark mb-3">全票</h5>
+                    </div>
+                    <h5 class="h5 fw-bold text-black mb-0">NT$350</h5>
+                  </div>
+                </div>
+                <div class="flex-shrink-0">
+                  <div class="d-flex flex-column-reverse flex-sm-row align-items-center text-black">
+                    <span class="material-icons cursor-pointer">remove</span>
+                    <span class="h5 fw-bold mb-0 mx-md-3 my-1 my-md-0">01</span>
+                    <span class="material-icons cursor-pointer">add</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="cart__item">
+            <div class="card mb-3">
+              <button type="button" class="btn-close d-block mt-1 ms-1"></button>
+              <div class="d-flex align-items-center mx-4 mx-md-6 mb-4 mb-md-5">
+                <div class="flex-shrink-0">
+                    <img src="./assets/images/exhibition-2.jpg" class="cart__img" alt="展覽照">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <div class="card-body py-0 d-flex flex-column justify-content-between">
+                    <div>
+                      <h3 class="card-title h6 fw-bold text-black mb-2">2020 台味設計展</h3>
+                      <h4 class="card-title h6 text-black mb-2">01 JUN — 31 OCT</h4>
+                      <h5 class="h6 text-dark mb-3">全票</h5>
+                    </div>
+                    <h5 class="h5 fw-bold text-black mb-0">NT$350</h5>
+                  </div>
+                </div>
+                <div class="flex-shrink-0">
+                  <div class="d-flex flex-column-reverse flex-sm-row align-items-center text-black">
+                    <span class="material-icons cursor-pointer">remove</span>
+                    <span class="h5 fw-bold mb-0 mx-md-3 my-1 my-md-0">01</span>
+                    <span class="material-icons cursor-pointer">add</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="cart__item">
+            <div class="card mb-3">
+              <button type="button" class="btn-close d-block mt-1 ms-1"></button>
+              <div class="d-flex align-items-center mx-4 mx-md-6 mb-4 mb-md-5">
+                <div class="flex-shrink-0">
+                    <img src="./assets/images/exhibition-3.jpg" class="cart__img" alt="展覽照">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <div class="card-body py-0 d-flex flex-column justify-content-between">
+                    <div>
+                      <h3 class="card-title h6 fw-bold text-black mb-2">2020 台味設計展</h3>
+                      <h4 class="card-title h6 text-black mb-2">01 JUN — 31 OCT</h4>
+                      <h5 class="h6 text-dark mb-3">全票</h5>
+                    </div>
+                    <h5 class="h5 fw-bold text-black mb-0">NT$350</h5>
+                  </div>
+                </div>
+                <div class="flex-shrink-0">
+                  <div class="d-flex flex-column-reverse flex-sm-row align-items-center text-black">
+                    <span class="material-icons cursor-pointer">remove</span>
+                    <span class="h5 fw-bold mb-0 mx-md-3 my-1 my-md-0">01</span>
+                    <span class="material-icons cursor-pointer">add</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="cart__item">
+            <div class="card mb-3">
+              <button type="button" class="btn-close d-block mt-1 ms-1"></button>
+              <div class="d-flex align-items-center mx-4 mx-md-6 mb-4 mb-md-5">
+                <div class="flex-shrink-0">
+                    <img src="./assets/images/art-1.jpg" class="cart__img" alt="展覽照">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <div class="card-body py-0 d-flex flex-column justify-content-between">
+                    <div>
+                      <h3 class="card-title h6 fw-bold text-black mb-2">2020 台味設計展</h3>
+                      <h4 class="card-title h6 text-black mb-2">01 JUN — 31 OCT</h4>
+                      <h5 class="h6 text-dark mb-3">全票</h5>
+                    </div>
+                    <h5 class="h5 fw-bold text-black mb-0">NT$350</h5>
+                  </div>
+                </div>
+                <div class="flex-shrink-0">
+                  <div class="d-flex flex-column-reverse flex-sm-row align-items-center text-black">
+                    <span class="material-icons cursor-pointer">remove</span>
+                    <span class="h5 fw-bold mb-0 mx-md-3 my-1 my-md-0">01</span>
+                    <span class="material-icons cursor-pointer">add</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="cart__item">
+            <div class="card">
+              <button type="button" class="btn-close d-block mt-1 ms-1"></button>
+              <div class="d-flex align-items-center mx-4 mx-md-6 mb-4 mb-md-5">
+                <div class="flex-shrink-0">
+                    <img src="./assets/images/other-1.jpg" class="cart__img" alt="展覽照">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <div class="card-body py-0 d-flex flex-column justify-content-between">
+                    <div>
+                      <h3 class="card-title h6 fw-bold text-black mb-2">2020 台味設計展</h3>
+                      <h4 class="card-title h6 text-black mb-2">01 JUN — 31 OCT</h4>
+                      <h5 class="h6 text-dark mb-3">全票</h5>
+                    </div>
+                    <h5 class="h5 fw-bold text-black mb-0">NT$350</h5>
+                  </div>
+                </div>
+                <div class="flex-shrink-0">
+                  <div class="d-flex flex-column-reverse flex-sm-row align-items-center text-black">
+                    <span class="material-icons cursor-pointer">remove</span>
+                    <span class="h5 fw-bold mb-0 mx-md-3 my-1 my-md-0">01</span>
+                    <span class="material-icons cursor-pointer">add</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="offcanvas-footer px-6 mb-6">
+        <div class="d-flex justify-content-between align-items-center">
+          <h4 class="h5 text-white m-0"><span class="me-5">小計</span>NT$1050</h4>
+          <button type="button" class="btn btn-light text-secondary">前往結帳</button>
+        </div>
+      </div>
+    </div>
+
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>

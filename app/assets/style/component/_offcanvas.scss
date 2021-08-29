@@ -1,0 +1,9 @@
+.offcanvas {
+  top: 62px;
+  width: 100%;
+
+  @include media-breakpoint-up(md) {
+    top: 82px;
+    width: 540px;
+  }
+}

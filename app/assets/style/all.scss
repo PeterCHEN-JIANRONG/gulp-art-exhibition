@@ -7,17 +7,21 @@
 @import './utilities/hover';
 @import './utilities/background';
 @import './utilities/border';
+@import './utilities/cursor';
+@import './utilities/scrollbar';
 
 @import './config/base';
 
 
 @import './component/nav';
 @import './component/card';
+@import './component/offcanvas';
 
 @import './layout/header';
 @import './layout/footer';
 @import './layout/subscription';
 @import './layout/banner';
+@import './layout/cart';
 
 @import './page/index';
 @import './page/design';
