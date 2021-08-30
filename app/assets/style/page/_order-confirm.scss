@@ -19,10 +19,16 @@
 
 .confirmCheck {
   margin-top: 90px;
-  height: auto;
 
   @include media-breakpoint-up(md) {
     margin-top: 0;
+  }
+}
+
+.order-control {
+  height: auto;
+
+  @include media-breakpoint-up(md) {
     height: calc(100vh - 200px);
   }
 }
