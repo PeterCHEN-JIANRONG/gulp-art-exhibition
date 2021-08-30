@@ -13755,6 +13755,10 @@ fieldset:disabled .btn {
   text-indent: 2rem;
 }
 
+.fs-sm {
+  font-size: 14px;
+}
+
 .font-roboto {
   font-family: 'Roboto', sans-serif;
 }
@@ -13881,6 +13885,37 @@ img {
     top: 82px;
     width: 540px;
   }
+}
+
+.timeline {
+  border-top: 2px solid #E31277;
+}
+
+.timeline__item {
+  position: relative;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.timeline__item::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: white;
+  border: 1px solid #E31277;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: -5px;
+  left: 46%;
+}
+
+.timeline__done {
+  font-weight: 700;
+}
+
+.timeline__done::before {
+  background: #E31277;
 }
 
 .header__main {
@@ -14039,6 +14074,49 @@ img {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.cartCard {
+  height: 84px;
+  overflow: hidden;
+}
+
+.cartCard a {
+  height: 24px;
+}
+
+.cartInputGroup {
+  width: 100px;
+  height: 24px;
+}
+
+.cartInputGroup button,
+.cartInputGroup input {
+  height: 24px;
+}
+
+.order-control {
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .order-control {
+    height: calc(100vh - 200px);
+  }
+}
+
+.order-finish {
+  margin-top: 42px;
+}
+
+@media (min-width: 768px) {
+  .order-finish {
+    margin-top: 102px;
+  }
+}
+
+.order-finish .success-icon {
+  font-size: 44px;
 }
 
 /*# sourceMappingURL=all.css.map */
