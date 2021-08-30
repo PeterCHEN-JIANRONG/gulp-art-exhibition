@@ -1,0 +1,11 @@
+.order-finish {
+  margin-top: 42px;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 102px;
+  }
+
+  .success-icon {
+    font-size: 44px;
+  }
+}

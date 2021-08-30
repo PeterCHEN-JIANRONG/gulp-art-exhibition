@@ -51,6 +51,10 @@
         </div>
       </nav>
     </header>
+    <!-- nav選單 -->
+    <div <% if(current !== 'order-finish') { %> hidden <% } %> >
+    <%- include('./nav-scroller.ejs') %>
+    </div>
     <main class="main">
       <%- contents %>
     </main>
