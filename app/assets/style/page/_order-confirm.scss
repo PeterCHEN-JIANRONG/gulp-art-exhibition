@@ -1,0 +1,28 @@
+.cartCard {
+  height: 84px;
+  overflow: hidden;
+
+  a {
+    height: 24px;
+  }
+}
+
+.cartInputGroup {
+  width: 100px;
+  height: 24px;
+
+  button,
+  input {
+    height: 24px;
+  }
+}
+
+.confirmCheck {
+  margin-top: 90px;
+  height: auto;
+
+  @include media-breakpoint-up(md) {
+    margin-top: 0;
+    height: calc(100vh - 200px);
+  }
+}
