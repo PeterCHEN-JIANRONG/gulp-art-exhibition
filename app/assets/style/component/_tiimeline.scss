@@ -20,7 +20,11 @@
     }
   }
 
-  &__done::before {
-    background: $primary;
+  &__done {
+    font-weight: 700;
+
+    &::before {
+      background: $primary;
+    }
   }
 }
