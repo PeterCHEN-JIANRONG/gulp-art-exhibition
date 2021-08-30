@@ -6,5 +6,158 @@ current: order-payment
 ---
 
 <div class="order-payment">
-
+  <div class="container pt-5 pb-7">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="timeline d-flex justify-content-around mb-4 mb-md-5">
+          <li class="timeline__item timeline__done fw-bold">確認訂單</li>
+          <li class="timeline__item">填寫訂購資訊</li>
+          <li class="timeline__item">填寫付款資訊</li>
+          <li class="timeline__item">完成訂購</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row flex-row-reverse">
+      <div class="col-md-4">
+        <div class="order-control d-flex flex-column">
+          <h2 class="h5 fw-bold mb-4 mb-md-5">付款資訊</h2>
+          <form>
+            <div class="mb-5">
+              <label for="信用卡帳號" class="mb-1">信用卡帳號</label>
+              <input type="text" class="form-control" id="信用卡帳號" name="credit_card" placeholder="Xxxx-xxxx-xxxx-xxxx">
+            </div>
+            <div class="mb-5">
+              <label for="有效日期" class="mb-1">有效日期</label>
+              <input type="text" class="form-control" id="有效日期" name="effective_date" placeholder="(MM/YY)">
+            </div>
+            <div class="mb-5">
+              <label for="安全碼" class="mb-1">安全碼</label>
+              <input type="password" class="form-control" id="安全碼" name="security_code" placeholder="***">
+            </div>
+          </form>
+          <div class="d-flex justify-content-between mb-1 mt-auto">
+            <p class="h6 fw-bold m-0">小計</p>
+            <p class="h6 fw-light m-0">NT$1050</p>
+          </div>
+          <div class="d-flex justify-content-between mb-2">
+            <p class="h6 fw-bold m-0">折扣</p>
+            <p class="h6 fw-light m-0">-NT$50</p>
+          </div>
+          <div class="d-flex justify-content-between mb-5 mb-md-3">
+            <p class="h5 fw-bold m-0">總金額</p>
+            <p class="h5 m-0">NT$1000</p>
+          </div>
+          <a href="./order-personInfo.html" class="d-none d-md-grid btn btn-primary btn-lg">下一步</a>
+        </div>
+      </div>
+      <div class="col-md-8 d-flex flex-column">
+        <ul class="mb-7 mb-md-0">
+          <li>
+            <div class="card cartCard mb-5">
+              <div class="row">
+                <div class="col-6 col-md-3">
+                  <img src="./assets/images/exhibition-1.jpg" class="img-fluid" alt="展覽照">
+                </div>
+                <div class="col-6 col-md-9">
+                  <div class="card-body d-flex justify-content-between align-items-center py-1">
+                    <div class="flex-grow-1 flex-lg-grow-0">
+                      <div class="d-flex justify-content-between align-items-center mb-1">
+                        <h2 class="card-title h6 fw-bold mb-0">2020 台味設計展</h2>
+                        <a href="javascript:;" class="d-md-none"><i class="material-icons">clear</i></a>
+                      </div>
+                      <p class="mb-1">01 JUN — 31 OCT</p>
+                      <div class="d-flex align-items-center">
+                        <p class="d-inline text-dark mb-0">全票</p>
+                        <p class="d-inline d-md-none h5 fw-bold ms-2 mb-0">1</p>
+                        <p class="d-inline d-md-none h5 fw-bold ms-auto mb-0">NT$350</p>
+                      </div>
+                    </div>
+                    <p class="h5 fw-bold d-none d-md-block m-0">NT$350</p>
+                    <div class="cartInputGroup input-group d-none d-md-flex align-items-center">
+                      <button type="button" class="btn btn-outline-dark border-0 p-0"><i class="material-icons">remove</i></button>
+                      <input type="text" class="form-control fs-5 fw-bold text-center border-0 mb-0 p-0" placeholder="數量" value="01">
+                      <button type="button" class="btn btn-outline-dark border-0 p-0"><i class="material-icons">add</i></button>
+                    </div>
+                    <a href="javascript:;" class="d-none d-md-block"><i class="material-icons">clear</i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card cartCard mb-5">
+              <div class="row">
+                <div class="col-6 col-md-3">
+                  <img src="./assets/images/exhibition-2.jpg" class="img-fluid" alt="展覽照">
+                </div>
+                <div class="col-6 col-md-9">
+                  <div class="card-body d-flex justify-content-between align-items-center py-1">
+                    <div class="flex-grow-1 flex-lg-grow-0">
+                      <div class="d-flex justify-content-between align-items-center mb-1">
+                        <h2 class="card-title h6 fw-bold mb-0">No.22 線上設計展</h2>
+                        <a href="javascript:;" class="d-md-none"><i class="material-icons">clear</i></a>
+                      </div>
+                      <p class="mb-1">01 JUN — 31 OCT</p>
+                      <div class="d-flex align-items-center">
+                        <p class="d-inline text-dark mb-0">全票</p>
+                        <p class="d-inline d-md-none h5 fw-bold ms-2 mb-0">1</p>
+                        <p class="d-inline d-md-none h5 fw-bold ms-auto mb-0">NT$350</p>
+                      </div>
+                    </div>
+                    <p class="h5 fw-bold d-none d-md-block m-0">NT$350</p>
+                    <div class="cartInputGroup input-group d-none d-md-flex align-items-center">
+                      <button type="button" class="btn btn-outline-dark border-0 p-0"><i class="material-icons">remove</i></button>
+                      <input type="text" class="form-control fs-5 fw-bold text-center border-0 mb-0 p-0" placeholder="數量" value="01">
+                      <button type="button" class="btn btn-outline-dark border-0 p-0"><i class="material-icons">add</i></button>
+                    </div>
+                    <a href="javascript:;" class="d-none d-md-block"><i class="material-icons">clear</i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="card cartCard">
+              <div class="row">
+                <div class="col-6 col-md-3">
+                  <img src="./assets/images/exhibition-3.jpg" class="img-fluid" alt="展覽照">
+                </div>
+                <div class="col-6 col-md-9">
+                  <div class="card-body d-flex justify-content-between align-items-center py-1">
+                    <div class="flex-grow-1 flex-lg-grow-0">
+                      <div class="d-flex justify-content-between align-items-center mb-1">
+                        <h2 class="card-title h6 fw-bold mb-0">高雄設計節</h2>
+                        <a href="javascript:;" class="d-md-none"><i class="material-icons">clear</i></a>
+                      </div>
+                      <p class="mb-1">01 JUN — 31 OCT</p>
+                      <div class="d-flex align-items-center">
+                        <p class="d-inline text-dark mb-0">全票</p>
+                        <p class="d-inline d-md-none h5 fw-bold ms-2 mb-0">1</p>
+                        <p class="d-inline d-md-none h5 fw-bold ms-auto mb-0">NT$350</p>
+                      </div>
+                    </div>
+                    <p class="h5 fw-bold d-none d-md-block m-0">NT$350</p>
+                    <div class="cartInputGroup input-group d-none d-md-flex align-items-center">
+                      <button type="button" class="btn btn-outline-dark border-0 p-0"><i class="material-icons">remove</i></button>
+                      <input type="text" class="form-control fs-5 fw-bold text-center border-0 mb-0 p-0" placeholder="數量" value="01">
+                      <button type="button" class="btn btn-outline-dark border-0 p-0"><i class="material-icons">add</i></button>
+                    </div>
+                    <a href="javascript:;" class="d-none d-md-block"><i class="material-icons">clear</i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="row mt-auto">
+          <div class="col-6 col-md-2">
+            <a href="./order-personInfo.html" class="d-grid btn btn-outline-primary btn-lg" type="button">返回</a>
+          </div>
+          <div class="col-6 d-md-none">
+            <a href="./order-finish.html" class="d-grid btn btn-primary btn-lg" type="button">下一步</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
