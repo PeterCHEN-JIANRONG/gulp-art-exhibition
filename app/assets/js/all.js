@@ -24,3 +24,9 @@ var swiper = new Swiper(".mySwiper", {
   //   clickable: true,
   // }
 });
+
+// AOS - 視差滾動
+AOS.init({
+  duration: 600,
+  once: true,
+});
