@@ -1,0 +1,26 @@
+.timeline {
+  border-top: 2px solid $primary;
+
+  &__item {
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    &::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      background: white;
+      border: 1px solid $primary;
+      border-radius: 50%;
+      display: inline-block;
+      position: absolute;
+      top: -5px;
+      left: 46%;
+    }
+  }
+
+  &__done::before {
+    background: $primary;
+  }
+}
